@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+header{
+    height: 90px;
+    display:flex;
+    justify-content: end;
+}
+
+header span{
+    height: 50px;
+    color: white;
+    
+}
+
+.secondbutton{
+    width: 45px;
+    height: 45px;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+.firstbutton{
+    width: 150px;
+    height: 45px;
+    background-color: gray;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+
+.firstcontainer{
+    padding: 9px;
+}
+
+main > .container{
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+.user{
+    width: calc(100%/7);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.uimage > img{
+    width: 100%;
+}
+
+.uimage{
+    position: relative;
+}
+
+.uimage .mainimage{
+    display: inline-block;
+}
+
+.status{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.info{
+    background-color: gray;
+}
