@@ -46,6 +46,8 @@ main > .container{
     display: flex;
     max-width: 2500px;
     margin: 0 auto;
+    height: calc(100vh - 230px);
+    overflow: scroll;
 }
 
 .user{
@@ -74,4 +76,43 @@ main > .container{
 
 .info{
     background-color: gray;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px
+
+}
+
+.thirdcontainer{
+    display: flex;
+    
+}
+
+.share{
+    color: chartreuse;
+}
+
+.lastcontainer{
+    height: 100%;
+    background-color: lightgray;
+    color: red;
+    display: flex;
+    align-items: center;
+}
+
+footer i{
+    font-size: large;
 }
